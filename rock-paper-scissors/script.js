@@ -32,6 +32,13 @@ function makeSelection(selection) {
     console.log(computerSelection)
 }
 
+addSelectionResult(computerSelection, computerWinner)
+addSelectionResult(selection, yourWinner)
+
+function addSelectionResult(selection, winner) {
+
+}
+
 function isWinner(selection, opponentSelection) {
     return selection.beats === opponentSelection.name 
 }
